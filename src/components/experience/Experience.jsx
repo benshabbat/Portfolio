@@ -4,22 +4,22 @@ import { BsPatchCheckFill } from "react-icons/bs";
 
 const Experience = () => {
   const skillsFrontend = [
-    { name: "HTML", experience: "Experienced" },
-    { name: "CSS", experience: "Experienced" },
-    { name: "JavaScript", experience: "Experienced" },
-    { name: "React", experience: "Experienced" },
-    { name: "Bootstrap", experience: "Basic" },
-    { name: "Tailwind", experience: "Basic" },
+    { name: "HTML"},
+    { name: "CSS"},
+    { name: "JavaScript"},
+    { name: "React"},
+    { name: "Bootstrap"},
+    { name: "Tailwind"},
   ];
   const skillsBackend = [
-    { name: "Java", experience: "Experienced" },
-    { name: "Python", experience: "Experienced" },
-    { name: "C", experience: "Experienced" },
-    { name: "C#", experience: "Experienced" },
-    { name: "MongoDB", experience: "Experienced" },
-    { name: "MySQL", experience: "Experienced" },
-    { name: "PHP", experience: "Experienced" },
-    { name: "Node.Js", experience: "Experienced" },
+    { name: "Java"},
+    { name: "Python" },
+    { name: "C"},
+    { name: "C#" },
+    { name: "MongoDB"},
+    { name: "MySQL"},
+    { name: "PHP"},
+    { name: "Node.Js"},
   ];
   const iconCheck = <BsPatchCheckFill className="experience_details-icon" />;
 
@@ -29,7 +29,6 @@ const Experience = () => {
         {iconCheck}
         <div>
           <h4>{skill.name}</h4>
-          <small className="text-light">{skill.experience}</small>
         </div>
       </article>
     );
@@ -40,7 +39,6 @@ const Experience = () => {
         {iconCheck}
         <div>
           <h4>{skill.name}</h4>
-          <small className="text-light">{skill.experience}</small>
         </div>
       </article>
     );
