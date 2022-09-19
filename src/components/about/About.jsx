@@ -23,12 +23,13 @@ const About = () => {
             </article>
           </div>
           <p>
-            My Name is David-Chen Benshabbat i have family awesome right now we
-            are 3 in family my pretty Wife and our dougther the smart and pretty
-            same her mom Im want to work as FullStack Developer Im Autotidact i
-            will do all for to finish the goal i have pattion to this job i sure
-            you will not loose if i will be in your team and Looking for my
-            first job
+            Hi, my name is Chen David Benshabbat, 28 years old, married plus
+            one, Has a software engineer certificate, I am a person who likes to
+            solve complicated problems and show my ways in creative ways, I
+            developed a passion for coding myself, A day I didn't learn
+            something new was a waste, I have a tendency to make mistakes
+            sometimes and most of the knowledge I remember after I made a
+            mistake.
           </p>
           <a href="#contact" className="btn btn-primary">
             Send Message
