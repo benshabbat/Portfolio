@@ -23,13 +23,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hi, my name is Chen David Benshabbat, 28 years old, married plus
-            one, Has a software engineer certificate, I am a person who likes to
-            solve complicated problems and show my ways in creative ways, I
-            developed a passion for coding myself, A day I didn't learn
-            something new was a waste, I have a tendency to make mistakes
-            sometimes and most of the knowledge I remember after I made a
-            mistake.
+            Control of a computerized environment, creativity and inventiveness,
+            ability to work in a team, ability to analyze and evaluate, ability
+            to learn, highly motivation, flexibility and adaptability,
+            acceptance of responsibility
           </p>
           <a href="#contact" className="btn btn-primary">
             Send Message
