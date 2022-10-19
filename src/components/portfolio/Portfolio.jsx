@@ -9,6 +9,7 @@ const Portfolio = () => {
       name: "cryptoapp",
       image: cryptoapp1,
       github: "https://github.com/benshabbat/Cryptoapp",
+      link:"https://cryptoappbenshabbat.netlify.app/"
     },
     { name: "garage", image: garage1, github: "https://github.com/benshabbat/GarageWeb" },
     { name: "resort", image: resort1, github: "https://github.com/benshabbat" },
@@ -23,6 +24,9 @@ const Portfolio = () => {
         <h3>{project.name} </h3>
         <a href={project.github} className="btn" target="_blank">
           Github
+        </a>
+        <a href={project.link} className="btn" target="_blank">
+        Link
         </a>
       </article>
     );
