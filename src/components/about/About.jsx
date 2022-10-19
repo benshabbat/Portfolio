@@ -25,8 +25,8 @@ const About = () => {
           <p>
             Control of a computerized environment, creativity and inventiveness,
             ability to work in a team, ability to analyze and evaluate, ability
-            to learn, highly motivation, flexibility and adaptability,
-            acceptance of responsibility
+            to learn, highly motivated, flexibility and adaptability, acceptance
+            of responsibility.
           </p>
           <a href="#contact" className="btn btn-primary">
             Send Message
