@@ -9,10 +9,20 @@ const Portfolio = () => {
       name: "cryptoapp",
       image: cryptoapp1,
       github: "https://github.com/benshabbat/Cryptoapp",
-      link:"https://cryptoappbenshabbat.netlify.app/"
+      link: "https://cryptoappbenshabbat.netlify.app/",
     },
-    { name: "garage", image: garage1, github: "https://github.com/benshabbat/GarageWeb" },
-    { name: "resort", image: resort1, github: "https://github.com/benshabbat" },
+    {
+      name: "garage",
+      image: garage1,
+      github: "https://github.com/benshabbat/GarageWeb",
+      link: null,
+    },
+    {
+      name: "resort",
+      image: resort1,
+      github: "https://github.com/benshabbat",
+      link: null,
+    },
   ];
 
   const printProject = projects.map((project) => {
@@ -25,9 +35,11 @@ const Portfolio = () => {
         <a href={project.github} className="btn" target="_blank">
           Github
         </a>
-        <a href={project.link} className="btn" target="_blank">
-        Link
-        </a>
+        {project.link && (
+          <a href={project.link} className="btn" target="_blank">
+            Link
+          </a>
+        )}
       </article>
     );
   });
